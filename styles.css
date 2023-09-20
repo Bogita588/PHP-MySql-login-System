@@ -57,3 +57,64 @@
 .container .content .btn:hover{
     background: crimson;
 }
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+    background: lightcoral;
+
+}
+.form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+    background: white;
+    text-align: center;
+    width: 500px;
+}
+form-container form h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: white;
+}
+.form-container form input,
+.form-container form select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin: 8px 0;
+    background: rgb(246, 236, 236);
+    color: blue;
+    border-radius: 5px;
+
+}
+.form-container form select option{
+    background: white;
+}
+.form-container form .form-btn{
+    background: rgb(15, 147, 230);
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.form-container form .form-btn:hover{
+    background: orange;
+    color: white;
+}
+.form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+.form-container form p a {
+    color: crimson;
+}
+
+
+
