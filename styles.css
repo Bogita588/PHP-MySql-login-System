@@ -115,6 +115,16 @@ form-container form h3{
 .form-container form p a {
     color: crimson;
 }
+.form-container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: red;
+    color: white;
+    font-size: 24px;
+
+    padding: 10px;
+
+}
 
 
 
